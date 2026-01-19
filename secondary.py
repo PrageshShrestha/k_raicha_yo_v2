@@ -9,7 +9,7 @@ import os
 import readline
 import time
 from pathlib import Path
-
+#from opensource guide
 import onnxruntime_genai as og
 
 # og.set_log_options(enabled=True, model_input_values=True, model_output_values=True)
