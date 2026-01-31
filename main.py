@@ -40,7 +40,7 @@ class ApiResponse(BaseModel):
 class DetectionResult(BaseModel):
     id: int
     class_name: str
-    confidence: float
+    confidence: float64
     bbox: List[float]
     polygon: List[List[float]]
     area: float
